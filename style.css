@@ -1,0 +1,744 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+
+/* body, html {
+    background: rgb(59, 58, 58);
+    color: whitesmoke;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+} */
+
+
+html, body {
+    background-color: teal;
+    background: url(images/keyboard.jpg) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#header_con img {
+    height: 200px;
+}
+
+
+/* hex images section ------------------ */
+
+
+/* hex shapping and styling  */
+svg{
+    width:230px;
+    /* margin:0; */
+}
+
+/* svg:hover {
+    width:250px;
+    margin:0 auto;
+} */
+
+.hex{
+    stroke-width:2;
+    stroke: teal;
+} */
+
+#hexImages {
+    padding: 30px;
+}
+
+.hexImg {
+    margin-top: 20px;
+}
+
+/*  HR breaks */
+
+
+.hrBold {
+    border: none;
+    height: 4px;
+    background-color: teal;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.spaceBetweenSec {
+    height: 300px;
+}
+
+.spaceBetweenSecTop {
+    height: 100px;
+}
+
+
+/* heading tags  */
+.sectionDiv {
+    background-color: #CBC3E3;opacity: 95%;
+    padding: 40px 0;
+    margin: 0 25px;
+}
+
+#headingText h1 {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+#headingText h2 {
+    font-size: 2.4rem;
+    margin-bottom: 15px;
+}
+#headingText h3 {
+    font-size: 1.9rem;
+    margin-bottom: 15px;
+}
+#headingText h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+#headingText h5 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+#headingText h6 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+
+#headingText h1:hover {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+    color: rgb(255, 0, 149);
+    font-weight: bold;
+}
+#headingText h2:hover {
+    font-size: 2.4rem;
+    margin-bottom: 15px;
+    color: rgb(255, 0, 149);
+    font-weight: bold;
+}
+#headingText h3:hover {
+    font-size: 1.9rem;
+    margin-bottom: 15px;
+    color: rgb(255, 0, 149);
+    font-weight: bold;
+}
+#headingText h4:hover {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: rgb(255, 0, 149);
+    font-weight: bold;
+}
+#headingText h5:hover {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: rgb(255, 0, 149);
+    font-weight: bold;
+}
+#headingText h6:hover {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: rgb(255, 0, 149);
+    font-weight: bold;
+}
+
+
+.moreBtn {
+    background-color: rgb(255, 0, 149);;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+
+.moreBtn:hover {
+    background-color: rgb(255, 0, 149);
+    color: whitesmoke;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding: 14px;
+}
+
+
+
+
+/* experience buttons */
+
+.expBtn {
+    padding: 30px;
+}
+
+.expBtn:hover {
+    padding:40px;
+}
+
+
+
+#experience svg.svg-inline--fa {
+    font-size: 3.2rem;
+    color:rgb(255, 0, 149);
+    margin: 40px 10px 40px 10px;
+}
+
+
+/* #experience svg.svg-inline--fa:hover {
+    color: rgb(255, 136, 0)!important;
+    font-size: 3.5rem;
+} */
+
+#recExp h3 {
+    color: rgb(255, 0, 149);
+}
+
+#recExp h4 {
+    text-decoration: underline;
+    text-decoration-color: teal;
+}
+
+
+#img {
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+/* ############################################################## */
+
+/* video */
+
+
+#video h3 {
+    padding: 20px;
+}
+  
+#video iframe {
+    margin: 20px 0;
+    border: solid 3px rgb(255, 0, 149);
+}
+
+#video svg.svg-inline--fa {
+    font-size: 2rem;
+    color: teal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------Honeycomb cells ----*/
+
+.honeycomb {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+    transform: translate (80px);
+}
+
+.honeycomb-cell {
+    -webkit-box-flex: 0;
+    flex: 0 1 250xp;
+    max-width: 250px;
+    height: 137.5px;
+    margin: 25.4px 12.5px 25px;
+    position: relative;
+    padding: 0.5em;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.honeycomb-cell_img {
+    object-fit: cover;
+    object-position: center;
+    filter: grayscale(100%);
+}
+
+.honeycomb-cell_title {
+    height: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pacl: center;
+    justify-content: center;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    word-break: break-word;
+    text-transform: uppercase;
+    color: teal;
+    font-weight: 700;
+    font-size: 1.75em;
+    transition: opacity 350ms;
+}
+
+.honeycomb-cell::before,
+.honeycomb-cell:after {
+    content: '';
+}
+
+.honeycomb-cell::before,
+.honeycomb-cell:after,
+.honeycomb-cell_img {
+    top: -50%;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    display: block;
+    position: absolute;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    z-index: -1;
+}
+
+.honeycomb-cell::before {
+    background: #fff;
+    transform: scale(1.055);
+}
+
+.honeycomb-cell:after {
+    background: #111111;
+    opacity: 0.7;
+    transition: opacity 350ms;
+    -webkit-transition: opacity 350ms;
+}
+
+.honeycomb-cell:hover .honeycomb-cell_title {
+    opacity: 0;
+}
+
+.honeycomb-cell:hover.honeycomb-cell_img {
+    filter: grayscale(0%);
+}
+
+.honeycomb-cell:hover::before {
+    background: teal;
+}
+
+.honeycomb-cell:hover::after {
+    opacity: 0;
+}
+
+.honeycomb_hidden {
+    display: none;
+    opacity: 0;
+    width: 250px;
+    margin: 0 12.5px;
+}
+
+#honeycomb {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: transparent;
+}
+
+#honeycomb ul {
+    margin-bottom: 250px;
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap'); */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.honeycomb {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    transform: translateY(80px);
+}
+
+.honeycomb-cell {
+    -webkit-box-flex: 0;
+    flex: 0 1 250px;
+    max-width: 250px;
+    height: 137.5px;
+    margin: 65.4px 12.5px 25px;
+    position: relative;
+    padding: 0.5em;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.honeycomb-cell_img {
+    object-fit: cover;
+    object-position: center;
+    filter: grayscale(100%);
+}
+
+.honeycomb-cell_title {
+    height: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    word-break: break-word;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.75em;
+    transition: opacity 350ms;
+}
+
+.honeycomb-cell_title>small {
+    font-weight: 300;
+    margin-top: 0.25em;
+}
+
+.honeycomb-cell::before,
+.honeycomb-cell::after {
+    content: '';
+}
+
+.honeycomb-cell::before,
+.honeycomb-cell::after,
+.honeycomb-cell_img {
+    top: -50%;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    display: block;
+    position: absolute;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    z-index: -1;
+}
+
+.honeycomb-cell::before {
+    background: teal;
+    transform: scale(1.055);
+}
+
+.honeycomb-cell::after {
+    background: #111111;
+    opacity: 0.7;
+    transition: opacity 350ms;
+    -webkit-transition: opacity 350ms;
+}
+
+.honeycomb-cell:hover .honeycomb-cell_title {
+    opacity: 0;
+}
+
+.honeycomb-cell:hover .honeycomb-cell_img {
+    filter: grayscale(0%);
+}
+
+.honeycomb-cell:hover::before {
+    background: teal;
+}
+
+.honeycomb-cell:hover::after {
+    opacity: 0;
+}
+
+.honeycomb_Hidden {
+    display: none;
+    opacity: 0;
+    width: 250px;
+    margin: 0 12.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****** Responsive *******/
+
+@media (min-width:550px){
+    /* .hexImg {
+        display: none;
+    } */
+    #hrbreak2-2 {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 550px) {
+    .honeycomb-cell {
+        margin: 81.25px 10px;
+    }
+    .hexImg {
+        display: none;
+    }
+    #video {
+        width: 100%;
+    }
+    .spaceBetweenSec {
+        height: 150px;
+    }
+    
+    .spaceBetweenSecTop {
+        height: 50px;
+    }
+
+    #headingText {
+        text-align: center;
+    }
+
+    #headingText h1 {
+        font-size: 3rem;
+    }
+
+    #headingText h2 {
+        font-size: 2rem;
+    }
+
+    #headingText h3 {
+        font-size: 1.5rem;
+    }
+
+    #headingText h4 {
+        font-size: 1.3rem;
+    }
+
+    #headingText h5 {
+        font-size: 1rem;
+    }
+
+    #experience svg.svg-inline--fa {
+        font-size: 2rem;
+        color: rgb(255, 0, 149);
+        margin: 20px 10px 20px 10px;
+    }
+
+    #recExp h1 {
+        margin-top: 30px;
+    }
+
+    #honeycomb {
+        margin: -90px;
+    }
+
+
+    #video h3 {
+        font: 1.5rem;
+    }
+
+
+
+
+}
+
+@media (min-width: 550px) and (max-width: 825px) {
+    .honeycomb-cell:nth-child(3n) {
+        margin-right: calc(50% - 125px);
+        margin-left: calc(50% - 125px);
+    }
+    .honeycomb_Hidden:nth-child(3n+5) {
+        display: block;
+    }
+}
+
+@media (min-width: 825px) and (max-width: 1100px) {
+    .honeycomb-cell:nth-child(5n+4) {
+        margin-left: calc(50% - 275px);
+    }
+    .honeycomb-cell:nth-child(5n+5) {
+        margin-right: calc(50% - 275px);
+    }
+    .honeycomb_Hidden:nth-child(5n),
+    .honeycomb_Hidden:nth-child(5n+3) {
+        display: block;
+    }
+}
+
+@media (min-width: 1100px) {
+    .honeycomb-cell:nth-child(7n+5) {
+        margin-left: calc(50% - 400px);
+    }
+    .honeycomb-cell:nth-child(7n+7),
+    .honeycomb-cell:nth-child(7n+5):nth-last-child(2) {
+        margin-right: calc(50% - 400px);
+    }
+    .honeycomb_Hidden:nth-child(7n+7),
+    .honeycomb_Hidden:nth-child(7n+9),
+    .honeycomb_Hidden:nth-child(7n+11) {
+        display: block;
+    }
+}
+
+
+/*Honeycomb cells */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ################################################## */
+
+
+
+/* reference cards  */
+
+
+#reviews .card {
+    margin-top: 50px;
+    box-shadow: 1px 1px 1px grey;
+    color: #09142c;
+    background-color: rgb(133, 131, 131);
+}
+
+.card-header {
+    background-color: rgb(255, 0, 149);;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#reviews .card footer {
+    color: black;
+    font-weight: bold;
+}
+
+
+#aboutMePs p {
+    padding: 1% 8%;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+}
+
+#aboutMeH {
+    padding: 20px;
+    font-style: italic;
+    font-weight: bolder;
+    /* text-decoration: underline 1px orangered; */
+}
+
+
+.bolderAbout {
+    /* color: teal; */
+    font-weight: 600;
+    text-decoration: underline rgb(255, 0, 149) 1px;
+}
+
+
+#homeButton {
+    padding: 10px;
+    background-color: rgb(255, 0, 149)!important;
+    color: whitesmoke;
+    margin-bottom: 30px;
+    width: 120px;
+}
+
+
+
+
+
+/* ################################################## */
+
+
+
+
+/* footer  */
+
+
+
+#footer {
+    background-color: rgb(255, 0, 149);
+    margin-top: 100px;
+    
+
+}
+
+#footer p {
+    font-size: 1.1rem;
+    color: whitesmoke;
+}
+
+#footer svg.svg-inline--fa {
+    font-size: 2rem;
+    color: teal!important;
+    margin: 5px;
+}
+
+#honeycomb {
+    margin: -50px;
+    
+}
+
+
+/* #honeycomb ul {
+    margin-top: 20px;
+    margin-top: 20px;
+} */
